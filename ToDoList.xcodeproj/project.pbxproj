@@ -19,6 +19,7 @@
 		DC7B5DD61973E28B003A4891 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7B5DBE1973E28B003A4891 /* UIKit.framework */; };
 		DC7B5DDE1973E28B003A4891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DC7B5DDC1973E28B003A4891 /* InfoPlist.strings */; };
 		DC7B5DE01973E28B003A4891 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7B5DDF1973E28B003A4891 /* ToDoListTests.m */; };
+		DC7B5DEA1973E7FD003A4891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7B5DE91973E7FD003A4891 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		DC7B5DDB1973E28B003A4891 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		DC7B5DDD1973E28B003A4891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DC7B5DDF1973E28B003A4891 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		DC7B5DE91973E7FD003A4891 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				DC7B5DC91973E28B003A4891 /* SJRAppDelegate.h */,
 				DC7B5DCA1973E28B003A4891 /* SJRAppDelegate.m */,
+				DC7B5DE91973E7FD003A4891 /* Main.storyboard */,
 				DC7B5DCC1973E28B003A4891 /* Images.xcassets */,
 				DC7B5DC11973E28B003A4891 /* Supporting Files */,
 			);
@@ -219,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7B5DEA1973E7FD003A4891 /* Main.storyboard in Resources */,
 				DC7B5DC51973E28B003A4891 /* InfoPlist.strings in Resources */,
 				DC7B5DCD1973E28B003A4891 /* Images.xcassets in Resources */,
 			);
