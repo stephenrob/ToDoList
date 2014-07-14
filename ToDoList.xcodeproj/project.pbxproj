@@ -22,6 +22,7 @@
 		DC7B5DEA1973E7FD003A4891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7B5DE91973E7FD003A4891 /* Main.storyboard */; };
 		DC7B5DEE1973F719003A4891 /* SJRAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7B5DEC1973F719003A4891 /* SJRAddToDoItemViewController.m */; };
 		DC7B5DF51973F87C003A4891 /* SJRToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7B5DF41973F87C003A4891 /* SJRToDoListTableViewController.m */; };
+		DC7B5DF819740FD2003A4891 /* SJRToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC7B5DF719740FD2003A4891 /* SJRToDoItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		DC7B5DEC1973F719003A4891 /* SJRAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRAddToDoItemViewController.m; sourceTree = "<group>"; };
 		DC7B5DF31973F87C003A4891 /* SJRToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRToDoListTableViewController.h; sourceTree = "<group>"; };
 		DC7B5DF41973F87C003A4891 /* SJRToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRToDoListTableViewController.m; sourceTree = "<group>"; };
+		DC7B5DF619740FD2003A4891 /* SJRToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRToDoItem.h; sourceTree = "<group>"; };
+		DC7B5DF719740FD2003A4891 /* SJRToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRToDoItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 		DC7B5DC01973E28B003A4891 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				DC7B5DF619740FD2003A4891 /* SJRToDoItem.h */,
+				DC7B5DF719740FD2003A4891 /* SJRToDoItem.m */,
 				DC7B5DC91973E28B003A4891 /* SJRAppDelegate.h */,
 				DC7B5DCA1973E28B003A4891 /* SJRAppDelegate.m */,
 				DC7B5DE91973E7FD003A4891 /* Main.storyboard */,
@@ -255,6 +260,7 @@
 			files = (
 				DC7B5DEE1973F719003A4891 /* SJRAddToDoItemViewController.m in Sources */,
 				DC7B5DCB1973E28B003A4891 /* SJRAppDelegate.m in Sources */,
+				DC7B5DF819740FD2003A4891 /* SJRToDoItem.m in Sources */,
 				DC7B5DF51973F87C003A4891 /* SJRToDoListTableViewController.m in Sources */,
 				DC7B5DC71973E28B003A4891 /* main.m in Sources */,
 			);

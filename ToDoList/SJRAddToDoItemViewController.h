@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SJRToDoItem.h"
 
 @interface SJRAddToDoItemViewController : UIViewController
+
+@property SJRToDoItem *toDoItem;
 
 @end
